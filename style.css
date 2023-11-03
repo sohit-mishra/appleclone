@@ -123,6 +123,7 @@ section .video video{
     object-fit: cover;
     width: 100%;
     scale: 1.5;
+    background-color: #0066cc;
     margin-top: 80px;
     margin-bottom: 100px;
 }
@@ -245,7 +246,13 @@ footer .bottom ul li{
         left: 0;
         z-index: 2;
     }
-    
+    .pclaptop{
+       display: flex;
+       justify-content: space-evenly;
+    }
+    .pclaptop img{
+        height: 200px;
+    }
     .btn,
     .product p{
         width: 100%;
