@@ -117,13 +117,12 @@ header button:hover{
     margin-right: 30px;
 }
 section .video{
-    display:none;
-    overflow: overflow;
+    overflow: hidden;
 }
 section .video video{
     object-fit: cover;
     width: 100%;
-    scale: none;
+    scale: 1.5;
     margin-top: 80px;
     margin-bottom: 100px;
 }
@@ -216,6 +215,9 @@ footer .bottom ul li{
         font-size: large;
         margin-right: 20px;
         margin-top: 10px;
+    }
+    section .video{
+        display: none;
     }
     header p{
         font-size: larger;
