@@ -117,7 +117,7 @@ header button:hover{
     margin-right: 30px;
 }
 section .video{
-    overflow: hidden;
+    overflow: visible;
 }
 section .video video{
     object-fit: cover;
