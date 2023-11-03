@@ -145,6 +145,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 30px 0;
+    font-size: 1.2vw;
 }
 
 .top ul{
@@ -244,12 +245,15 @@ footer .bottom ul li{
         left: 0;
         z-index: 2;
     }
+    
     .btn,
     .product p{
         width: 100%;
     }
     .top{
         grid-template-columns: 1fr;
+        font-size: large;
+        font-weight: 400;
     }
     .top ul{
         margin-bottom: 3px;
